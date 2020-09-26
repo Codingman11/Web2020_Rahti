@@ -1,0 +1,34 @@
+body {
+  margin-block-start: 200px;
+  margin-inline-start: 300px;
+}
+#table {
+  height: 400px;
+  width: 400px;
+  border-collapse: collapse;
+}
+td {
+  font-size: 30px;
+  font-family: Helvetica;
+  border: 1px solid black;
+  vertical-align: middle;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+}
+
+.x {
+  background-color: rgb(124, 252, 0);
+}
+
+.o {
+  background-color: rgb(250, 128, 114);
+}
+
+#myBar {
+  height: 30px;
+  max-width: 400px;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: green;
+}
